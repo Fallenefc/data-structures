@@ -2,7 +2,7 @@
 
 class LinkedListNode {
   value: number;
-  next: any;
+  next: LinkedListNode | null;
 
   constructor (value: number) {
     this.value = value;
